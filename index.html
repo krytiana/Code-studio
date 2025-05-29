@@ -6,22 +6,27 @@
   <title>The Continent View | African News & Politics</title>
   <meta name="description" content="Get the latest African news and political updates. Explore stories shaping the continent, only on The Continent View.">
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="assets/images/favicon-16x16.png" />
-  <link rel="manifest" href="manifest.json" />
-
+  <link rel="icon" href="assets/images/favicon.png" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>The Continent View</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <h1>The Continent View</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
 
+  <div class="categories">
+    <a href="#politics">Politics</a>
+    <a href="#sports">Sports</a>
+    <a href="#musics">Music</a>
+    <a href="#healths">Health</a>
+    <a href="#educations">Education</a>
+    <a href="#promotions">Promotion</a>
+    <a href="#gadget">Gadget</a>
+  </div>
+</header>
   <section class="hero">
     <div class="container">
       <h2>Bold News. African Voice. One Continent.</h2>
@@ -30,27 +35,119 @@
   </section>
 
   <main class="container">
-    <section class="featured-post">
-      <img src="assets/images/logo.png" alt="Burkina Faso, Niger, and Mali unite" />
+
+  <!-- Category: Politics -->
+  <section class="category-section" id="politics">
+    <h2>Politics</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="AES Bloc" />
       <h3><a href="blog/burkina-niger-mali-union.html">Burkina Faso, Niger & Mali Unite Under AES Bloc</a></h3>
       <p>Three Sahel nations are merging their future — one currency, one military, one vision. Here's what it means for West Africa...</p>
       <a href="blog/burkina-niger-mali-union.html" class="read-more">Read More →</a>
-    </section>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/why-ecowas-declining.html">Why ECOWAS Is Losing Influence Fast</a></li>
+      <li><a href="blog/pan-africanism.html">Pan-Africanism: The Future of African Governance</a></li>
+      <li><a href="blog/au-agenda-2025.html">Inside the African Union’s 2025 Agenda</a></li>
+    </ul>
+  </section>
 
-    <section class="recent-posts">
-      <h4>Recent Stories</h4>
-      <ul>
-        <li><a href="blog/another-topic.html">Why ECOWAS Is Losing Influence Fast</a></li>
-        <li><a href="blog/another-topic.html">Pan-Africanism: The Future of African Governance</a></li>
-        <li><a href="blog/another-topic.html">Inside the African Union’s 2025 Agenda</a></li>
-      </ul>
-    </section>
-  </main>
+  <!-- Category: Sports -->
+  <section class="category-section" id="sports">
+    <h2>Sports</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="African Cup 2025" />
+      <h3><a href="blog/african-cup-2025.html">All Eyes on African Cup 2025: Who Will Win?</a></h3>
+      <p>African football heats up with new talent and bigger ambitions. Here's our early prediction and team analysis.</p>
+      <a href="blog/african-cup-2025.html" class="read-more">Read More →</a>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/sports-grants.html">How African Governments Are Investing in Sports</a></li>
+      <li><a href="blog/sports-women-rise.html">The Rise of Women in African Sports</a></li>
+    </ul>
+  </section>
+
+  <!-- Repeat for other categories -->
+  <section class="category-section" id="musics">
+    <h2>Music</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="Afrobeats Global Rise" />
+      <h3><a href="blog/afrobeats-rise.html">Afrobeats Is Now a Global Powerhouse</a></h3>
+      <p>From Lagos to London, Afrobeats is sweeping the globe. How did we get here?</p>
+      <a href="blog/afrobeats-rise.html" class="read-more">Read More →</a>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/ghana-drill.html">Ghana Drill Scene: Underground to Mainstream</a></li>
+    </ul>
+  </section>
+
+  <section class="category-section" id="healths">
+    <h2>Health</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="African Health Innovation" />
+      <h3><a href="blog/africa-health-2025.html">Revolutionizing Healthcare Access in Rural Africa</a></h3>
+      <p>Tech meets medicine as startups roll out mobile health clinics across the continent.</p>
+      <a href="blog/africa-health-2025.html" class="read-more">Read More →</a>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/mental-health-africa.html">Breaking the Silence on Mental Health</a></li>
+    </ul>
+  </section>
+
+  <section class="category-section" id="educations">
+    <h2>Education</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="Digital Learning" />
+      <h3><a href="blog/digital-schools-africa.html">Digital Classrooms Transform African Education</a></h3>
+      <p>With rising internet access, schools across Africa are embracing online tools to bridge gaps in learning.</p>
+      <a href="blog/digital-schools-africa.html" class="read-more">Read More →</a>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/education-funding.html">Private Investment in African Education Rises</a></li>
+    </ul>
+  </section>
+
+  <section class="category-section" id="promotions">
+    <h2>Promotion</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="Youth Grant" />
+      <h3><a href="blog/youth-empowerment.html">$10M Grant to Fund African Youth Innovation</a></h3>
+      <p>Find out how to apply for this continent-wide opportunity for young changemakers.</p>
+      <a href="blog/youth-empowerment.html" class="read-more">Read More →</a>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/funding-startups.html">How Startups in Africa Are Getting Funded</a></li>
+    </ul>
+  </section>
+
+  <section class="category-section" id="gadget">
+    <h2>Gadget</h2>
+    <div class="featured-post">
+      <img src="assets/images/img.jpg" alt="African Smart Tech" />
+      <h3><a href="blog/tech-africa.html">Top 5 Gadgets Made by Africans in 2025</a></h3>
+      <p>Innovation is rising. Here’s how African tech startups are producing world-class gadgets.</p>
+      <a href="blog/tech-africa.html" class="read-more">Read More →</a>
+    </div>
+    <ul class="post-list">
+      <li><a href="blog/smartphones-local.html">Affordable Smartphones Designed in Africa</a></li>
+    </ul>
+  </section>
+
+</main>
 
   <footer>
     <div class="container">
       <p>&copy; 2025 The Continent View. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".main-nav");
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  </script>
 </body>
 </html>

@@ -3,60 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Burkina Faso, Niger & Mali Form AES Bloc | The Continent View</title>
-  <meta name="description" content="Burkina Faso, Niger, and Mali unite under the AES bloc to launch a single currency, unified military, and shared vision for West Africa." />
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="icon" href="../assets/images/favicon.png" />
-  <link rel="manifest" href="manifest.json" />
-
+  <title>The Continent View | African News & Politics</title>
+  <meta name="description" content="Get the latest African news and political updates. Explore stories shaping the continent, only on The Continent View.">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="assets/images/favicon.png" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1><a href="../index.html" style="color: white; text-decoration: none;">The Continent View</a></h1>
-      <nav>
-        <a href="../index.html">Home</a>
-        <a href="../about.html">About</a>
-        <a href="../contact.html">Contact</a>
+    <div class="container header-flex">
+      <h1>The Continent View</h1>
+      
+      <!-- Hamburger Menu Icon -->
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+      <!-- Navigation Links -->
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        
+        <!-- Category Dropdown -->
+        <div class="dropdown">
+          <button class="dropbtn">Categories ⌄</button>
+          <div class="dropdown-content">
+            <a href="category/politics.html">Politics</a>
+            <a href="category/sports.html">Sports</a>
+            <a href="category/music.html">Music</a>
+            <a href="category/health.html">Health</a>
+            <a href="category/education.html">Education</a>
+            <a href="category/promotion.html">Promotion</a>
+            <a href="category/gadget.html">Gadget</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
 
-  <main class="container" style="margin-top: 40px;">
-    <article>
-      <h2>Burkina Faso, Niger & Mali Form AES Bloc</h2>
-      <p><em>Posted on May 25, 2025</em></p>
-      <img src="../assets/images/aes-union.jpg" alt="AES alliance" style="width:100%; max-height:300px; object-fit:cover; margin: 20px 0;" />
+  <section class="hero">
+    <div class="container">
+      <h2>Bold News. African Voice. One Continent.</h2>
+      <p>Stay informed with independent news and political stories from across Africa.</p>
+    </div>
+  </section>
 
-      <p><strong>BREAKING:</strong> A new era of unity is unfolding in West Africa as Burkina Faso, Niger, and Mali announce their bold move to merge key national functions under a single alliance — the AES (Alliance of Sahel States).</p>
+  <main class="container">
+    <section class="featured-post">
+      <img src="assets/images/aes-union.jpg" alt="Burkina Faso, Niger, and Mali unite" />
+      <h3><a href="blog/burkina-niger-mali-union.html">Burkina Faso, Niger & Mali Unite Under AES Bloc</a></h3>
+      <p>Three Sahel nations are merging their future — one currency, one military, one vision. Here's what it means for West Africa...</p>
+      <a href="blog/burkina-niger-mali-union.html" class="read-more">Read More →</a>
+    </section>
 
-      <p>The alliance is set to feature:</p>
+    <section class="recent-posts">
+      <h4>Recent Stories</h4>
       <ul>
-        <li>A <strong>single currency</strong> to improve trade and reduce reliance on foreign exchange systems</li>
-        <li>A <strong>unified passport</strong> for seamless travel and commerce</li>
-        <li>A <strong>collective military</strong> to enhance regional security</li>
-        <li><strong>Unrestricted movement</strong> of people and goods across borders</li>
-      </ul>
-
-      <p>While each country will maintain its own president and internal governance, the AES seeks to operate as a coordinated bloc. This historic decision could mark a major shift in regional politics, economic integration, and African self-determination.</p>
-
-      <blockquote>
-        "This isn’t just about unity — it’s about harnessing power together." — Regional analyst
-      </blockquote>
-
-      <p>Many see the AES as a direct response to growing distrust in traditional Western alliances and institutions like ECOWAS, which has seen its influence wane in recent years.</p>
-
-      <h3>Could AES Be Africa’s Next Superpower?</h3>
-      <p>With shared goals and increasing coordination, the AES has the potential to grow into a dominant regional force — economically, militarily, and politically. Its success may even inspire similar alliances across the continent.</p>
-
-      <p>Stay with <strong>The Continent View</strong> for more in-depth coverage on African political shifts and global reactions.</p>
-    </article>
-
-    <section class="recent-posts" style="margin-top: 50px;">
-      <h4>Related Posts</h4>
-      <ul>
-        <li><a href="another-topic.html">Why ECOWAS Is Losing Influence Fast</a></li>
-        <li><a href="another-topic.html">Pan-Africanism: The Future of African Governance</a></li>
+        <li><a href="blog/another-topic.html">Why ECOWAS Is Losing Influence Fast</a></li>
+        <li><a href="blog/another-topic.html">Pan-Africanism: The Future of African Governance</a></li>
+        <li><a href="blog/another-topic.html">Inside the African Union’s 2025 Agenda</a></li>
       </ul>
     </section>
   </main>
@@ -66,5 +69,14 @@
       <p>&copy; 2025 The Continent View. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".main-nav");
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  </script>
 </body>
 </html>
